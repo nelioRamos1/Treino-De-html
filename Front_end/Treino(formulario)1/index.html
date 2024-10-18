@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <form name="signup" onsubmit="alert('enviei um formulario')" method="POST" action="https://meusite.com.br/signup">
+        Nome: <input type="text" name="name" /><br>
+        Idade: <input type="number" name="age" /><br>
+        Senha: <input type="password" name="password" /><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form>
+        <label>Digite aqui:</label> <input type="text" />
+        <label>Number:</label> <input type="number" min="16" max="80" step="4"/>
+        <label>Button:</label> <input type="button" value="Enviar" /><button type="button">Enviar</button><br>
+        <label>Range:</label> <input type="range" min="0" max="100"/><br>
+        <label>Color:</label> <input type="color"/><br>
+        <label>Email:</label> <input type="email"/><br>
+        <label>Url:</label> <input type="url"/><br>
+        <label>Date:</label> <input type="date"/><br>
+        <label>Week:</label> <input type="week"/><br>
+        <button type="button">Enviar</button>
+    </form>
+</body>
+</html>
